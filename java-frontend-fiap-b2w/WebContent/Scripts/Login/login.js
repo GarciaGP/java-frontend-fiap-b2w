@@ -23,10 +23,13 @@ $(document).ready(() => {
 			  type: "get",
 			  data: getParametros(user.value, pw.value),
 			  success: function(response) {
-			    alert("sucesso " + response)
+				  console.log(response);
+				  document.open();
+				  document.write(response);
+				  document.close();
 			  },
 			  error: function(response, status, error) {
-				 alert("Erro " + response.responseText + status + error)
+				 alert("Erro: " + response.responseText + response.status)
 			  }
 			  
         });			

@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
+                
+    
+    
     <wb-module deploy-name="java-frontend-fiap-b2w">
+                        
+        
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <dependent-module archiveName="java-backend-fiap-b2w.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/java-backend-fiap-b2w/java-backend-fiap-b2w">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                
+                                
+        
+        
         <property name="context-root" value="java-frontend-fiap-b2w"/>
-                
+                                
+        
+        
         <property name="java-output-path" value="/java-frontend-fiap-b2w/build/classes"/>
-            
-    </wb-module>
+                            
     
+    
+    </wb-module>
+            
+
+
 </project-modules>
